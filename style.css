@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+.logo {
+	height: 10ch;
+    max-width: 10ch;
+}
+.container-f {
+    width: 100%;
+    background: #282e38;
+}
+body {
+    background-color: #282e38;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    background-color: #282e38;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li:hover {
+    color: #1485ee;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.home {
+    background-color: #323a46;
+    padding: 115px;
+    text-align: center
+}
+
+.homeimg {
+    border-radius: 100px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.usebot-text {
+    font-size: 50px;
+}
+.bot-description {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin: 10px;
+    border: 2px solid;
+    background-color: transparent;
+    font-size: 18px;
+    margin-top: 90px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add {
+    color: #1485ee;
+    border-color: #1485ee;
+}
+
+.add:hover {
+    background-color: #1485ee;
+    transition: 0.7s;
+    color: white;
+}
+
+.plus:hover {
+    background-color: white;
+    color: black;   
+}
+
+.text-center {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+
+.features-text {
+    text-align: center;
+}
+
+.feature {
+    margin: 20px;
+    padding: 20px;
+    max-width: 290px;
+    margin-bottom: 0;
+}
+.title {
+    margin-bottom: 20px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 110px;
+    padding-bottom: 60px;
+}
+.features-icon {
+    float: left;
+    margin-left: -65px;
+    font-size: 40px;
+    color: #1485ee
+}
+
+.body_end {
+    background-color: #323a46;
+    padding: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.button {
+    margin: 13px;
+    border: none;
+    background-color:#1485ee;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 16px 55px;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.add_to_server:hover {
+    background-color: #207ED6;
+}
+.documentation_link {
+    color: #1485ee;
+    text-decoration: underline;
+}
+.support_server  {
+    background-color: grey;
+}
+footer {
+    background-color: #282e38;
+    padding: 30px;
+}
+.copyright {
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* Commandes styles */
+
+.body .commandes {
+    background-color: #323a46;
+}
+
+
+
+
+
+
